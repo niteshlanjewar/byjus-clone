@@ -78,6 +78,7 @@ margin-bottom: 5rem;
 
     .sec4 .parents-review .parent-1 .video, .parent-2 .video, .parent-3 .video{
         margin-left: -3.5rem;
+        cursor: pointer;
     }
 
     .sec4 .parents-review .parent-1 p, .parent-2 p, .parent-3 p{
@@ -98,4 +99,29 @@ margin-bottom: 5rem;
 
     .sec4 .parents-review .arrow{
         transform: rotate(180deg);
+    }
+
+    .sec4 .button{
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .sec4 .button button{
+        padding: 10px 40px;
+        font-size: 15px;
+        border: transparent;
+        border-radius: 50px;
+        cursor: pointer;
+        background: linear-gradient(135deg, #5d70ff, #8b40ff);
+        color: white;
+        font-weight: 500;
+    }
+
+    .sec4 .button button ion-icon{
+        margin-bottom: -4px;
+        margin-left: 4px;
+        font-weight: 600;
+        font-size: 18px;
+
     }
