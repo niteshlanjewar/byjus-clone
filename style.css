@@ -1,0 +1,101 @@
+.sec3{
+margin-left: 5rem;
+margin-right: 5rem;
+margin-top: 3rem;
+margin-bottom: 5rem;
+}
+.sec3 h1{
+    text-align: center;
+    font-size: 2.2rem;
+    color: #333333;
+    margin-bottom: 20px;
+}
+.sec3 .advantage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size: 28px;
+    color: #333333;
+}
+.sec3.advantage-1 img{
+    width: 19rem;
+}
+
+.sec4{
+    margin-left:  3rem;
+    margin-right: 3rem;
+    margin-top: 3rem;
+    margin-bottom:  3rem;
+    }
+    .sec4 h1{
+        text-align: center;
+        font-size: 2.2rem;
+        color: #333333;
+        margin-bottom: 20px;
+    }
+
+    .sec4 .rating , .parents-review{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2.5rem;
+    }
+
+    .sec4 .rating .download, .star-rating, .cities, .minutes{
+        margin-right: 5rem;
+        margin-left: 5rem;
+        align-items: center;
+    }
+ 
+    .sec4 .rating .download img, .star-rating img, .cities img, .minutes img{
+    width: 3rem;
+    }
+
+    .sec4 .rating .download h2, .star-rating h2, .cities h2, .minutes h2{
+        color: purple;
+    }
+
+    .sec4 .rating .download p, .star-rating p, .cities p, .minutes p{
+        color: #333333;
+    }
+
+    .sec4 .parents-review .parent-1, .parent-2, .parent-3{
+        text-align: center;
+        margin-left: 0.6rem;
+        margin-right: 0.6rem;
+        margin-top: 4rem;
+    }
+
+    .sec4 .parents-review .parent-1 .parents, .parent-2 .parents, .parent-3 .parents{
+    width: 9rem;
+    cursor: pointer;
+    }
+
+    .sec4 .parents-review .parent-2{
+        margin-bottom: 20px;
+    }
+
+    .sec4 .parents-review .parent-1 .video, .parent-2 .video, .parent-3 .video{
+        margin-left: -3.5rem;
+    }
+
+    .sec4 .parents-review .parent-1 p, .parent-2 p, .parent-3 p{
+        font-size: 15px;
+        color: #333333;
+        margin-top: 20px;
+    }
+
+    .sec4 .parents-review .parent-1 h4, .parent-2 h4, .parent-3 h4{
+        color: #333333;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .sec4 .parents-review .parent-1 .location, .parent-2 .location, .parent-3 .location{
+        font-size: 13px;
+    }
+
+    .sec4 .parents-review .arrow{
+        transform: rotate(180deg);
+    }
