@@ -222,3 +222,99 @@
     opacity: 0.3;
 }
 
+.sec5 .bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec5 .bottom button{
+    padding: 15px 50px;
+    font-size: 18px;
+    color: white;
+    border: transparent;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #ff8d33, #ff5263);
+    cursor: pointer;
+}
+
+.sec5 .bottom img{
+    width: 8rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer img{
+     z-index: 1008;
+     width: 100%;
+     cursor: pointer;
+}
+
+footer .course{
+    background: #813588;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -80;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 20px;
+}
+
+footer .course .courses, .exam-class, .exam-resources, .company-follow, .textbook, .state-board{
+    width: 17%;
+    display: inline-grid;
+    min-height: 1px;
+}
+
+footer .course .courses p, .exam-class p, .exam-resources p, .company-follow p, .textbook p, .state-board p{
+color: #ffc846;
+font-weight: 500;
+font-size: 14px;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+
+footer .course .courses a, .exam-class a, .exam-resources a, .company-follow a, .textbook a, .state-board a{
+color: white;
+text-decoration: none;
+margin-bottom: 5px;
+font-size: 13px;
+}
+
+footer .course .courses a:hover, .exam-class a:hover, .exam-resources a:hover, .company-follow a:hover, .textbook a:hover, .state-board a:hover{
+font-weight: 500;
+}    
+
+footer .course .company-follow .follow{
+    display: flex;
+}
+
+footer .course .company-follow .follow img{
+    width: 30px;
+}
+
+footer .bottom{
+    background-color: #813588;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 3rem;
+    font-size: 13px;
+}
+
+footer .bottom .pages a{
+    color: white;
+    text-decoration: none;
+}
+
+footer .bottom .pages ion-icon{
+    transform: rotate(90deg);
+    font-size: 3px;
+    margin-bottom: -10px;
+}
+
+footer .bottom .copyright{
+    margin-top: 10px;
+}
+
+
