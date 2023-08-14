@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Byju's</title>
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
@@ -50,13 +50,15 @@
             <hr class="hr2">
           
             <form action="">
-            <input type="text" placeholder="Enter Name of your Child">
-            <input type="text" placeholder="Enter your Mobile Number">
+            <input type="text" placeholder="Enter Name of your Child" id="childName">
+            <input type="text" placeholder="Enter your Mobile Number" id="mobileNo">
             <button class="otp">Send OTP</button>
-            <input type="text" placeholder="Email Address">
-            <input type="text" placeholder="State">
+            <input type="text" placeholder="Email Address" id="email">
+            <input type="text" placeholder="State" id="state">
             <ion-icon name="caret-down-outline"></ion-icon>
-            <button class="book-class">Schedule a Free Class</button>
+            <button class="book-class" onclick="func()"
+            >
+            Schedule a Free Class</button>
         </form>
         </div>
         
@@ -519,6 +521,23 @@
             </div>
         </div>
     </footer>
+    <script>
+        function func(){
+        var childName = document.getElementById("childName").value;
+        var mobileNo = document.getElementById("mobileNo").value;
+        var email = document.getElementById("email").value;
+        var state = document.getElementById("state").value;
+
+        if(childName=='rahul' && mobileNo=='123456' && email=='nitlanjewar1621@gmail.com' && state=='kerla'){
+            alert("Sheduled Successfully !")
+            window.location ("Doubt.html")
+        }else{
+            alert("Please Give the Details Correct !")
+        }
+        }
+       
+        
+    </script>
 </body>
 
 </html>
